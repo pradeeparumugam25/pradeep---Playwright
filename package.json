@@ -13,4 +13,3 @@
     "clear-allure-report": "Remove-Item -Path '.allure-report' -Recurse -Force"
   }
 }
-
