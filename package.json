@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "allure-playwright": "^3.0.7"
+  },
+  "scripts": {
+    "script": "npx playwright test",
+    "allure-generate": "allure generate ./allure-results -o ./allure-report && allure open ./allure-report",
+    "clear-allure-report": "Remove-Item -Path '.allure-report' -Recurse -Force"
+  }
+}
+
